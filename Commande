@@ -1,3 +1,13 @@
+UPDATE 2015
+
+### Base de l'utilisation de Git
+
+# Cloner le dossier :
+	- git clone https://github.com/fabienfrfr/PAIRSPLAYS.git
+
+# Parametrage Git (main user)
+	-git config --global user.email "mon.adresse@mail.domaine"
+
 
 (Si non fait) Cloner le dossier "git" : 
 	-git clone https://pairsplays@bitbucket.org/pairsplays/pairsplays.bitbucket.org.git
