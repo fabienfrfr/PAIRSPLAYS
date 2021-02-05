@@ -2,22 +2,17 @@ UPDATE 2015
 
 ### Base de l'utilisation de Git
 
-# Cloner le dossier :
+# Cloner le dossier (si non fait) :
 	- git clone https://github.com/fabienfrfr/PAIRSPLAYS.git
 
+# Acceder au dossier : 
+	cd PAIRSPLAYS/
+
 # Parametrage Git (main user)
-	-git config --global user.email "mon.adresse@mail.domaine"
+	-git push
+		--> indiquer user GitHub et Passwords
 
-
-(Si non fait) Cloner le dossier "git" : 
-	-git clone https://pairsplays@bitbucket.org/pairsplays/pairsplays.bitbucket.org.git
-Acceder au dossier : 
-	cd pairsplays.bitbucket.org/
-Lancer les instructions :
+# Lancer les instructions :
 	git add --all
 	git commit -m "Initial commit"
 	git push -u origin master
-	
-D'un coup :	
-cd pairsplays.bitbucket.org/; git add --all; git commit -m "Initial commit"; git push -u origin master; cd ..
-
