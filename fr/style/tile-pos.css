@@ -1,0 +1,27 @@
+.tile.tile-position-1-1 {
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}
+
+.tile.tile-position-2-1 {
+	-webkit-transform: translate(161.66px, 0px);
+	-moz-transform: translate(161.66px, 0px);
+	transform: translate(161.66px, 0px);
+}
+
+.tile.tile-position-3-1 {
+	-webkit-transform: translate(323.33px, 0px);
+	-moz-transform: translate(323.33px, 0px);
+	transform: translate(323.33px, 0px);
+}
+
+.tile {
+	position: absolute;
+	-webkit-transition: 100ms ease-in-out;
+	-moz-transition: 100ms ease-in-out;
+	transition: 100ms ease-in-out;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+}

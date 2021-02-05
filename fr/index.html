@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PAIRS</title>
+
+		<link href="style/main.css" rel="stylesheet" type="text/css">
+		<link href="style/score.css" rel="stylesheet" type="text/css">
+		<link href="style/msg.css" rel="stylesheet" type="text/css">
+		<link href="style/grid.css" rel="stylesheet" type="text/css">
+		<link href="style/tile.css" rel="stylesheet" type="text/css">
+		<link href="style/tile-pos.css" rel="stylesheet" type="text/css">
+		<link href="style/tile-inner.css" rel="stylesheet" type="text/css">
+		
+		<link rel="shortcut icon" href="favicon.ico">
+			
+	</head>
+	<body>
+		<div class="container">
+			<div class="heading">
+				<h1 class="title">Pairs</h1>
+				<div class="scores-container">
+					<div class="score-container">
+						0
+					</div>
+					<div class="best-container">
+						0
+					</div>
+				</div>
+			</div>
+
+			<div class="above-game">
+				<p class="game-intro">
+					Relier les mots paires et aller jusqu'a <strong>256!</strong>
+				</p>
+				<a class="restart-button">New Test</a>
+			</div>
+
+			<div class="game-container">
+				<div class="game-message">
+					<p></p>
+					<div class="lower">
+						<a class="keep-playing-button">Keep going</a>
+						<a class="retry-button">Try again</a>
+						<a class="confirm-button">OK</a>
+						<a class="cancel-button">Cancel</a>
+					</div>
+				</div>
+
+				<div class="grid-container">
+					<div class="grid-row">
+						<div class="grid-cell"></div>
+						<div class="grid-cell"></div>
+						<div class="grid-cell"></div>
+					</div>
+
+				</div>
+				
+				<div class="tile-container">
+
+				</div>
+			
+
+			</div>
+			<hr>
+			<p>
+      			<strong class="important">Comment jouer :</strong> Utiliser les <strong>flèches gauche/droite</strong> pour deplacer les blocs. Lorsqu'il y a 2 mots de la même famille, Ceux-ci <strong>se mélangent!</strong>
+    			</p>
+    			<hr>
+    			<p>
+    			<strong class="important">Note:</strong> Le jeux sur <a href="http://pairsplays.bitbucket.org/">ce site</a> est la version originale de Pairs. L'application pour <a href="https://play.google.com/store/apps/details?id=com.sohcahtoa.fr_pairs" target="_blank">Android</a> est aussi disponible.</p>
+    <hr>
+    <p>
+    Creer par <strong>sohcahtoa</strong>. Design basé sur <a href="https://gabrielecirulli.github.io/2048/" target="_blank">2048 by gabrielecirulli</a>.
+    </p>
+		</div>
+				
+		<script src="js/manager.js"></script>
+		<script src="js/server.js"></script>
+		<script src="js/objects.js"></script>
+		<script src="js/functions_.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/script_.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

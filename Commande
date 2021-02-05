@@ -1,0 +1,13 @@
+
+(Si non fait) Cloner le dossier "git" : 
+	-git clone https://pairsplays@bitbucket.org/pairsplays/pairsplays.bitbucket.org.git
+Acceder au dossier : 
+	cd pairsplays.bitbucket.org/
+Lancer les instructions :
+	git add --all
+	git commit -m "Initial commit"
+	git push -u origin master
+	
+D'un coup :	
+cd pairsplays.bitbucket.org/; git add --all; git commit -m "Initial commit"; git push -u origin master; cd ..
+
